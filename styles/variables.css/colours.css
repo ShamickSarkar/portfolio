@@ -1,0 +1,66 @@
+:root{
+/*=========================================
+    BACKGROUND
+=========================================*/
+
+--color-bg:#0B0B0B;
+
+--color-surface:#111111;
+
+--color-card:#171717;
+
+--color-border:#262626;
+
+/*=========================================
+    imagine -
+    Website
+
+↓
+Section
+
+↓
+Window
+
+↓
+Card
+
+ends here
+---------------------------------*/
+/*=========================================
+    TEXT
+=========================================*/
+
+--color-text-primary:#FFFFFF;
+
+--color-text-secondary:#B0B0B0;
+
+--color-text-muted:#7A7A7A;
+
+/*=========================================
+    imagine -
+    Website text
+    Heading
+
+↓
+Paragraph
+↓
+Metadata
+// ends here
+---------------------------------*/     
+ 
+/*=========================================
+    ACCENT
+=========================================*/
+
+--color-accent:#3B82F6;
+/*=========================================
+accent means-
+    Interactive.
+    Buttons.
+    Links.
+    Focus.
+    Hover.
+    Selection.
+}
+*/
+}
