@@ -1,0 +1,143 @@
+/* ==========================================
+   TEXT UTILITIES
+   ========================================== */
+
+/* Alignment */
+
+.text-left{
+    text-align:left;
+}
+
+.text-center{
+    text-align:center;
+}
+
+.text-right{
+    text-align:right;
+}
+
+/* Weight */
+
+.font-light{
+    font-weight:var(--font-light);
+}
+
+.font-regular{
+    font-weight:var(--font-regular);
+}
+
+.font-medium{
+    font-weight:var(--font-medium);
+}
+
+.font-semibold{
+    font-weight:var(--font-semibold);
+}
+
+.font-bold{
+    font-weight:var(--font-bold);
+}
+
+/* Size */
+
+.text-xs{
+    font-size:var(--text-xs);
+}
+
+.text-sm{
+    font-size:var(--text-sm);
+}
+
+.text-md{
+    font-size:var(--text-md);
+}
+
+.text-lg{
+    font-size:var(--text-lg);
+}
+
+.text-xl{
+    font-size:var(--text-xl);
+}
+
+.text-2xl{
+    font-size:var(--text-2xl);
+}
+
+.text-3xl{
+    font-size:var(--text-3xl);
+}
+
+.text-4xl{
+    font-size:var(--text-4xl);
+}
+
+/* Transform */
+
+.uppercase{
+    text-transform:uppercase;
+}
+
+.lowercase{
+    text-transform:lowercase;
+}
+
+.capitalize{
+    text-transform:capitalize;
+}
+
+/* Decoration */
+
+.underline{
+    text-decoration:underline;
+}
+
+.no-underline{
+    text-decoration:none;
+}
+
+/* Line Height */
+
+.leading-tight{
+
+    line-height:var(--leading-tight);
+
+}
+
+.leading-normal{
+
+    line-height:var(--leading-normal);
+
+}
+
+.leading-relaxed{
+
+    line-height:var(--leading-relaxed);
+
+}
+
+/* White Space */
+
+.nowrap{
+
+    white-space:nowrap;
+
+}
+
+.break-word{
+
+    overflow-wrap:break-word;
+
+}
+
+/* Overflow */
+
+.truncate{
+
+    overflow:hidden;
+
+    text-overflow:ellipsis;
+
+    white-space:nowrap;
+
+}
