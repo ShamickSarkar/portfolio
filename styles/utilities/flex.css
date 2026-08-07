@@ -1,0 +1,95 @@
+/* ==========================================
+   FLEX UTILITIES
+   ========================================== */
+
+.row{
+    flex-direction:row;
+}
+
+.column{
+    flex-direction:column;
+}
+
+.wrap{
+    flex-wrap:wrap;
+}
+
+.nowrap{
+    flex-wrap:nowrap;
+}
+
+/* Justify */
+
+.justify-start{
+    justify-content:flex-start;
+}
+
+.justify-center{
+    justify-content:center;
+}
+
+.justify-end{
+    justify-content:flex-end;
+}
+
+.justify-between{
+    justify-content:space-between;
+}
+
+.justify-around{
+    justify-content:space-around;
+}
+
+.justify-evenly{
+    justify-content:space-evenly;
+}
+
+/* Align */
+
+.items-start{
+    align-items:flex-start;
+}
+
+.items-center{
+    align-items:center;
+}
+
+.items-end{
+    align-items:flex-end;
+}
+
+.items-stretch{
+    align-items:stretch;
+}
+
+/* Self */
+
+.self-start{
+    align-self:flex-start;
+}
+
+.self-center{
+    align-self:center;
+}
+
+.self-end{
+    align-self:flex-end;
+}
+
+/* Grow */
+
+.grow{
+    flex-grow:1;
+}
+
+.shrink{
+    flex-shrink:1;
+}
+
+.no-grow{
+    flex-grow:0;
+}
+
+.no-shrink{
+    flex-shrink:0;
+}
