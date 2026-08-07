@@ -1,0 +1,21 @@
+/* ==========================================
+   CARD VARIANTS
+   ========================================== */
+
+.card--outlined{
+
+    background:transparent;
+
+}
+
+.card--elevated{
+
+    box-shadow:var(--shadow-lg);
+
+}
+
+.card--interactive{
+
+    cursor:pointer;
+
+}
