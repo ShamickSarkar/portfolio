@@ -1,0 +1,17 @@
+/* ==========================================
+   CARD STATES
+   ========================================== */
+
+.card:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:var(--shadow-lg);
+
+}
+
+.card:focus-within{
+
+    border-color:var(--color-primary);
+
+}

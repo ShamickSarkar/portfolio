@@ -1,0 +1,23 @@
+/* ==========================================
+   INPUT VARIANTS
+   ========================================== */
+
+.input--filled{
+
+    background:var(--color-surface);
+
+}
+
+.input--outline{
+
+    background:transparent;
+
+}
+
+.input--ghost{
+
+    background:transparent;
+
+    border-color:transparent;
+
+}

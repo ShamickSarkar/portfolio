@@ -1,0 +1,40 @@
+/* ==========================================
+   INPUT STATES
+   ========================================== */
+
+.input:hover{
+
+    border-color:var(--color-primary);
+
+}
+
+.input:focus{
+
+    outline:none;
+
+    border-color:var(--color-primary);
+
+    box-shadow:
+        0 0 0 3px rgba(59,130,246,.15);
+
+}
+
+.input:disabled{
+
+    opacity:.6;
+
+    cursor:not-allowed;
+
+}
+
+.input:invalid{
+
+    border-color:#ef4444;
+
+}
+
+.input:valid{
+
+    border-color:#22c55e;
+
+}

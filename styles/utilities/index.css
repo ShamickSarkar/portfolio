@@ -1,7 +1,9 @@
 @import "./display.css";
-
 @import "./flex.css";
-
 @import "./grid.css";
-
 @import "./spacing.css";
+@import "./sizing.css";
+@import "./text.css";
+@import "./colors.css";
+@import "./effects.css";
+@import "./animations.css";

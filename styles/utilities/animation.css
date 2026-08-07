@@ -1,0 +1,189 @@
+/* ==========================================
+   ANIMATION UTILITIES
+   Portfolio Design System
+   ========================================== */
+
+/* ------------------------------------------
+   Transition Helpers
+------------------------------------------ */
+
+.transition{
+    transition:var(--transition-normal);
+}
+
+.transition-fast{
+    transition:var(--transition-fast);
+}
+
+.transition-slow{
+    transition:var(--transition-slow);
+}
+
+/* ------------------------------------------
+   Hover Helpers
+------------------------------------------ */
+
+.hover-lift:hover{
+
+    transform:translateY(-4px);
+
+}
+
+.hover-scale:hover{
+
+    transform:scale(1.03);
+
+}
+
+.hover-fade:hover{
+
+    opacity:.8;
+
+}
+
+.hover-shadow:hover{
+
+    box-shadow:var(--shadow-lg);
+
+}
+
+/* ------------------------------------------
+   Fade
+------------------------------------------ */
+
+.fade-in{
+
+    animation:fadeIn var(--duration-medium)
+    var(--ease-standard);
+
+}
+
+@keyframes fadeIn{
+
+    from{
+
+        opacity:0;
+
+    }
+
+    to{
+
+        opacity:1;
+
+    }
+
+}
+
+/* ------------------------------------------
+   Slide Up
+------------------------------------------ */
+
+.slide-up{
+
+    animation:slideUp var(--duration-medium)
+    var(--ease-standard);
+
+}
+
+@keyframes slideUp{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(20px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+/* ------------------------------------------
+   Scale In
+------------------------------------------ */
+
+.scale-in{
+
+    animation:scaleIn var(--duration-normal)
+    var(--ease-standard);
+
+}
+
+@keyframes scaleIn{
+
+    from{
+
+        opacity:0;
+
+        transform:scale(.95);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:scale(1);
+
+    }
+
+}
+
+/* ------------------------------------------
+   Spin
+------------------------------------------ */
+
+.spin{
+
+    animation:spin 1s linear infinite;
+
+}
+
+@keyframes spin{
+
+    to{
+
+        transform:rotate(360deg);
+
+    }
+
+}
+
+/* ------------------------------------------
+   Pulse
+------------------------------------------ */
+
+.pulse{
+
+    animation:pulse 1.6s ease infinite;
+
+}
+
+@keyframes pulse{
+
+    0%{
+
+        opacity:1;
+
+    }
+
+    50%{
+
+        opacity:.45;
+
+    }
+
+    100%{
+
+        opacity:1;
+
+    }
+
+}

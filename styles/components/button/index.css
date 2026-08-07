@@ -1,0 +1,36 @@
+/* 
+Why this architecture?
+
+Suppose, six months from now, you want to add a loading state, 
+an icon-only button, or a danger variant. 
+You won't be editing a 500-line button.css. 
+You'll know exactly where each concern belongs:
+
+base.css → Structure and shared layout.
+variants.css → Visual styles like primary, secondary, outline.
+sizes.css → Small, medium, large, block.
+states.css → Hover, active, focus, disabled.
+components/
+
+button/
+card/
+navbar/
+modal/
+input/
+textarea/
+footer/
+hero/
+timeline/
+project-card/
+theme-toggle/
+*/
+
+
+
+@import "./base.css";
+
+@import "./variants.css";
+
+@import "./sizes.css";
+
+@import "./states.css";
