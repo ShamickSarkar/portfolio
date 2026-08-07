@@ -1,0 +1,85 @@
+/* ==========================================
+   NAVBAR BASE
+   ========================================== */
+
+.navbar{
+
+    position:fixed;
+
+    top:0;
+
+    left:0;
+
+    width:100%;
+
+    z-index:var(--z-header);
+
+    background:var(--color-background);
+
+    border-bottom:1px solid var(--color-border);
+
+}
+
+.navbar__container{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    min-height:72px;
+
+}
+
+.navbar__brand{
+
+    font-size:var(--text-xl);
+
+    font-weight:var(--font-bold);
+
+    color:var(--color-text);
+
+}
+
+.navbar__nav{
+
+    display:flex;
+
+}
+
+.navbar__list{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:var(--space-xl);
+
+}
+
+.navbar__item{
+
+    position:relative;
+
+    display:flex;
+
+    align-items:center;
+
+}
+
+.navbar__actions{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:var(--space-md);
+
+}
+
+.navbar__toggle{
+
+    display:none;
+
+}

@@ -1,0 +1,81 @@
+/* ==========================================
+   NAVBAR DESKTOP
+   ========================================== */
+
+/* Navigation */
+
+.navbar__nav{
+
+    flex:1;
+
+    display:flex;
+
+    justify-content:center;
+
+}
+
+/* Navigation List */
+
+.navbar__list{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:var(--space-2xl);
+
+}
+
+/* Links */
+
+.navbar__link{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    padding:var(--space-xs) 0;
+
+    color:var(--color-text);
+
+    text-decoration:none;
+
+    font-size:var(--text-sm);
+
+    font-weight:var(--font-medium);
+
+    cursor:pointer;
+
+    transition:var(--transition-fast);
+
+    background:none;
+
+    border:none;
+
+}
+
+/* Hover */
+
+.navbar__link:hover{
+
+    color:var(--color-primary);
+
+}
+
+/* Brand */
+
+.navbar__brand{
+
+    text-decoration:none;
+
+}
+
+/* Dropdown */
+
+.navbar__dropdown{
+
+    display:none;
+
+}

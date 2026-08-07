@@ -37,6 +37,7 @@ Dashboard
 Grid layouts
 
 */
+@import "./navbar/index.css";
 
 @import "./container/index.css";
 
