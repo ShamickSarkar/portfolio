@@ -1,0 +1,39 @@
+/* ==========================================
+   TEXTAREA BASE
+   ========================================== */
+
+.textarea{
+
+    width:100%;
+
+    min-height:140px;
+
+    resize:vertical;
+
+    padding:
+        var(--space-sm)
+        var(--space-md);
+
+    border:1px solid var(--color-border);
+
+    border-radius:var(--radius-md);
+
+    background:var(--color-surface);
+
+    color:var(--color-text);
+
+    font-family:var(--font-sans);
+
+    font-size:var(--text-md);
+
+    line-height:var(--leading-normal);
+
+    transition:var(--input-transition);
+
+}
+
+.textarea::placeholder{
+
+    color:var(--color-text-muted);
+
+}
