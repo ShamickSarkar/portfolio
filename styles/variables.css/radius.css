@@ -1,0 +1,31 @@
+:root {
+    /*
+        BORDER RADIUS
+
+        BORDER RADIUS will be used for:
+        Buttons
+        Cards
+        Windows
+        Images
+        Project Cards
+        Input Fields
+        Dropdowns
+        Modals
+        Admin Tables
+        Dashboard Widgets
+
+        For round radius, it will be used for:
+        
+        Profile Picture
+        Notification Badge
+        Status Indicator
+        Tag
+        Chip
+        Pill Button
+    */
+
+    --radius-small: 6px;
+    --radius-medium: 10px;
+    --radius-large: 16px;
+    --radius-round: 999px;
+}

@@ -1,12 +1,13 @@
+/*=========================================
+    DESIGN TOKENS
+=========================================*/
+
 @import url("./variables/colors.css");
-@import url("./variables/spacing.css");
 @import url("./variables/typography.css");
+@import url("./variables/spacing.css");
 @import url("./variables/radius.css");
 @import url("./variables/shadow.css");
 @import url("./variables/motion.css");
 @import url("./variables/breakpoints.css");
 @import url("./variables/zindex.css");
 @import url("./variables/container.css");
-
-@import url("./base/reset.css");
-@import url("./base/base.css");
