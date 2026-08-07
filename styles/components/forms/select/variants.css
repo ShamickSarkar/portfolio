@@ -1,0 +1,23 @@
+/* ==========================================
+   TEXTAREA VARIANTS
+   ========================================== */
+
+.textarea--filled{
+
+    background:var(--color-surface);
+
+}
+
+.textarea--outline{
+
+    background:transparent;
+
+}
+
+.textarea--ghost{
+
+    background:transparent;
+
+    border-color:transparent;
+
+}
