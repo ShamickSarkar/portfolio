@@ -1,29 +1,11 @@
 /* ==========================================
-   RADIO BASE
+   CONTAINER LAYOUT
    ========================================== */
 
-.radio{
+.container{
 
-    width:1rem;
+    width:min(100% - 2rem,var(--container-xl));
 
-    height:1rem;
-
-    cursor:pointer;
-
-    accent-color:var(--color-primary);
-
-}
-
-.radio-label{
-
-    display:inline-flex;
-
-    align-items:center;
-
-    gap:var(--space-sm);
-
-    cursor:pointer;
-
-    user-select:none;
+    margin-inline:auto;
 
 }

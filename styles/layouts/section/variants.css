@@ -1,21 +1,11 @@
-/* ==========================================
-   CARD VARIANTS
-   ========================================== */
+.section--sm{
 
-.card--outlined{
-
-    background:transparent;
+    padding-block:var(--space-2xl);
 
 }
 
-.card--elevated{
+.section--lg{
 
-    box-shadow:var(--shadow-lg);
-
-}
-
-.card--interactive{
-
-    cursor:pointer;
+    padding-block:var(--space-4xl);
 
 }
