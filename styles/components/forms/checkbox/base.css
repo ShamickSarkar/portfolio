@@ -1,0 +1,31 @@
+/* ==========================================
+   CHECKBOX BASE
+   ========================================== */
+
+.checkbox{
+
+    width:1rem;
+
+    height:1rem;
+
+    cursor:pointer;
+
+    accent-color:var(--color-primary);
+
+}
+
+.checkbox-label{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    gap:var(--space-sm);
+
+    cursor:pointer;
+
+    user-select:none;
+
+    font-size:var(--text-md);
+
+}

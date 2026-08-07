@@ -1,14 +1,10 @@
 /* ==========================================
-   TEXTAREA BASE
+   SELECT BASE
    ========================================== */
 
-.textarea{
+.select{
 
     width:100%;
-
-    min-height:140px;
-
-    resize:vertical;
 
     padding:
         var(--space-sm)
@@ -28,12 +24,14 @@
 
     line-height:var(--leading-normal);
 
+    cursor:pointer;
+
     transition:var(--input-transition);
 
-}
+    appearance:none;
 
-.textarea::placeholder{
+    -webkit-appearance:none;
 
-    color:var(--color-text-muted);
+    -moz-appearance:none;
 
 }

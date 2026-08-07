@@ -1,0 +1,13 @@
+/* ==========================================
+   FORM GROUP
+   ========================================== */
+
+.form-group{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:var(--space-lg);
+
+}

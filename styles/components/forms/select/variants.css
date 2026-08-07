@@ -1,20 +1,20 @@
 /* ==========================================
-   TEXTAREA VARIANTS
+   SELECT VARIANTS
    ========================================== */
 
-.textarea--filled{
+.select--filled{
 
     background:var(--color-surface);
 
 }
 
-.textarea--outline{
+.select--outline{
 
     background:transparent;
 
 }
 
-.textarea--ghost{
+.select--ghost{
 
     background:transparent;
 

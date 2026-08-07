@@ -57,3 +57,17 @@ index.css
 @import "./card/index.css";
 
 @import "./input/index.css";
+
+@import "./forms/textarea/index.css";
+
+@import "./forms/select/index.css";
+
+@import "./forms/checkbox/index.css";
+
+@import "./forms/radio/index.css";
+
+@import "./forms/switch/index.css";
+
+@import "./forms/field/index.css";
+
+@import "./forms/form-group/index.css";

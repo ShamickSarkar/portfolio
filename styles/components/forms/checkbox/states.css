@@ -1,0 +1,33 @@
+/* ==========================================
+   CHECKBOX STATES
+   ========================================== */
+
+.checkbox:hover{
+
+    filter:brightness(1.05);
+
+}
+
+.checkbox:focus-visible{
+
+    outline:2px solid var(--color-primary);
+
+    outline-offset:3px;
+
+}
+
+.checkbox:disabled{
+
+    cursor:not-allowed;
+
+    opacity:.6;
+
+}
+
+.checkbox-label:has(.checkbox:disabled){
+
+    cursor:not-allowed;
+
+    opacity:.6;
+
+}

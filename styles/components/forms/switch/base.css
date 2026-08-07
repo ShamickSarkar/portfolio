@@ -1,39 +1,15 @@
 /* ==========================================
-   TEXTAREA BASE
+   SWITCH
    ========================================== */
 
-.textarea{
+.switch{
 
-    width:100%;
+    width:3rem;
 
-    min-height:140px;
+    height:1.5rem;
 
-    resize:vertical;
+    cursor:pointer;
 
-    padding:
-        var(--space-sm)
-        var(--space-md);
-
-    border:1px solid var(--color-border);
-
-    border-radius:var(--radius-md);
-
-    background:var(--color-surface);
-
-    color:var(--color-text);
-
-    font-family:var(--font-sans);
-
-    font-size:var(--text-md);
-
-    line-height:var(--leading-normal);
-
-    transition:var(--input-transition);
-
-}
-
-.textarea::placeholder{
-
-    color:var(--color-text-muted);
+    accent-color:var(--color-primary);
 
 }
