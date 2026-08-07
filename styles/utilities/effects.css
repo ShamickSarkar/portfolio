@@ -1,0 +1,101 @@
+/* ==========================================
+   EFFECT UTILITIES
+   ========================================== */
+
+.rounded{
+
+    border-radius:var(--radius-md);
+
+}
+
+.rounded-lg{
+
+    border-radius:var(--radius-lg);
+
+}
+
+.rounded-full{
+
+    border-radius:999px;
+
+}
+
+/* Shadow */
+
+.shadow-xs{
+
+    box-shadow:var(--shadow-xs);
+
+}
+
+.shadow-sm{
+
+    box-shadow:var(--shadow-sm);
+
+}
+
+.shadow-md{
+
+    box-shadow:var(--shadow-md);
+
+}
+
+.shadow-lg{
+
+    box-shadow:var(--shadow-lg);
+
+}
+
+.shadow-xl{
+
+    box-shadow:var(--shadow-xl);
+
+}
+
+/* Cursor */
+
+.cursor-pointer{
+
+    cursor:pointer;
+
+}
+
+.cursor-default{
+
+    cursor:default;
+
+}
+
+/* Opacity */
+
+.opacity-0{
+
+    opacity:0;
+
+}
+
+.opacity-50{
+
+    opacity:.5;
+
+}
+
+.opacity-100{
+
+    opacity:1;
+
+}
+
+/* Transition */
+
+.transition{
+
+    transition:var(--transition-normal);
+
+}
+
+.transition-fast{
+
+    transition:var(--transition-fast);
+
+}
